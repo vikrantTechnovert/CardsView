@@ -13,9 +13,11 @@ class Cards extends React.Component {
                         <div class="card mt-4 h-100">
                             <div class="card-body">
                                 <div class="card-title mt-4"><span class="heading">Personal Room <i class="fa fa-lock" /></span ><span class="sub-heading">/julia</span></div>
+                                <div class="item-container">
                                 <div class="profile-icons">
                                     <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
-                                </div>
+                                    </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -23,10 +25,12 @@ class Cards extends React.Component {
                     <div class="card mt-4 h-100">
                             <div class="card-body">
                                 <div class="card-title mt-4"><span class="heading">Monthly All-Hands</span><span class="sub-heading">/acme-all</span></div>
+                                <div class="item-container">
                                 <div class="profile-icons">
                                     <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
                                     <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
-                                </div>
+                                    </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -34,10 +38,12 @@ class Cards extends React.Component {
                     <div class="card mt-4 h-100">
                             <div class="card-body">
                                 <div class="card-title mt-4"><span class="heading">Design Sync</span><span class="sub-heading">/designers</span></div>
-                                <div class="profile-icons">
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
-                                    <span id="ExtraProfiles">+9</span>
+                                <div class="item-container">
+                                    <span class="profile-icons">
+                                        <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
+                                        <img src="https://cdn.iconscout.com/icon/free/png-256/account-avatar-profile-human-man-user-30448.png" />
+                                        <span id="ExtraProfiles">+9</span>
+                                    </span>
                                     <span id="Live">LIVE</span>
                                 </div>
                             </div>
